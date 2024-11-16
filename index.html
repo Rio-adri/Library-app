@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <div class="container">
@@ -25,8 +25,8 @@
                 <div class="container-input">
                     <label for="isRead" class="isRead">Finish Read? </label>
                     <div class="container-checkbox">
-                        <input type="checkbox" value="Yes" class="inputYes" id="inputYes" required>
-                        <input type="checkbox" value="No" class="inputNo" id="inputNo" required>
+                        <input type="checkbox"  class="inputYes" id="inputYes" required>Yes
+                        <input type="checkbox"  class="inputNo" id="inputNo" required>No
                     </div>
                 </div>
                 <div class="container-input">
@@ -34,8 +34,21 @@
                 </div>
             </form>
         </div>
+
+        <div class="container-list" id="container-list">
+            <div class="container-book">
+                <h1>Judul</h1>
+                <h4>Penulis</h4>
+                <p>Halaman</p>
+                <p>Sudah Baca</p>
+                <div class="container-btn">
+                    <button id="delete-btn">edit</button>
+                    <button id="change-btn">hapus</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="script.js" type="module"></script>
+    <script src="config/script.js" type="module"></script>
 </body>
 </html>
