@@ -55,7 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('inputAuthor').value = '';
         document.getElementById('inputPage').value = '';
         document.getElementById('inputYes').checked = false;
-        document.getElementById('inputNo').checked = false;
 
         // Re-render all books
         renderAllBooks();
@@ -116,7 +115,6 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('inputAuthor').value = book.author;
             document.getElementById('inputPage').value = book.pages;
             document.getElementById('inputYes').checked = book.isRead;
-            document.getElementById('inputNo').checked = !book.isRead;
 
             // Enable edit mode and save the book's index
             isEditing = true;

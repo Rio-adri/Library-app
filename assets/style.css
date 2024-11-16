@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #FEF3E2;
 }
 
 .container{
@@ -8,6 +9,7 @@ height: 100vh;
 }
 
 .container-form {
+    margin-top: 20px;
     width:100%;
     display: flex;
     flex-direction: column;
@@ -15,7 +17,9 @@ height: 100vh;
 }
 
 .form {
-    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.6);
+    background-color: #D8DBBD;
     margin: 0 auto;
     width: 80%;
 
@@ -31,7 +35,7 @@ height: 100vh;
 
 .container-input input {
     padding: 10px;
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
     border: none;
 }
@@ -44,8 +48,13 @@ height: 100vh;
 .submit-btn {
     border-radius: 10px;
     border: none;
-    width: 50%;
+    width: 80%;
     padding: 10px;
+
+}
+
+.submit-btn:hover {
+    background-color: #62825D;
 }
 
 .container-list {
@@ -57,7 +66,9 @@ height: 100vh;
 }
 
 .container-book {
-    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.6);
+    background-color:#D8DBBD;
     width: auto;
     padding : 20px;
 }
@@ -73,5 +84,9 @@ height: 100vh;
     width : 100%;
     padding-top : 5px;
     padding-bottom : 5px;
+    
+}
 
+.container-btn button:hover {
+    background-color: #62825D;
 }
