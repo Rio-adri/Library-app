@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-form"> 
+            <form action="" class="form">
+                <div class="container-input">
+                    <label for="title" class="title">Title Book</label>
+                    <input type="text" class="inputTitle" id="inputTitle" required>
+                </div>
+                <div class="container-input">
+                    <label for="author" class="author">Author</label>
+                    <input type="text" class="inputAuthor" id="inputAuthor" required>
+                </div>
+                <div class="container-input">
+                    <label for="page" class="page">Page</label>
+                    <input type="number" class="inputPage" id="inputPage" required>
+                </div>
+                <div class="container-input">
+                    <label for="isRead" class="isRead">Finish Read? </label>
+                    <div class="container-checkbox">
+                        <input type="checkbox" value="Yes" class="inputYes" id="inputYes" required>
+                        <input type="checkbox" value="No" class="inputNo" id="inputNo" required>
+                    </div>
+                </div>
+                <div class="container-input">
+                    <button type="submit" class="submit-btn" id="submit"> Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
